@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* Color */
+/* 
+- Soft violet: hsl(273, 75%, 66%)
+- Soft blue: hsl(240, 73%, 65%) */
+
+
+/* 
+#### Text
+
+- Very dark grayish blue: hsl(237, 12%, 33%)
+- Dark grayish blue: hsl(240, 6%, 50%) */
+
+/* - Light grayish blue: hsl(240, 5%, 91%) */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.container {
+    display: flex;
+    position: relative;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 10px 5px 20px 2px rgba(0, 0, 0, .4);
+    width: 50%;
+    height: 700px;
+
+}
+
+
+h1 {
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+p {
+
+    display: none;
+
+}
+
+.active {
+    display: block;
+    padding-bottom: 1.5rem;
+    font-size: 14px;
+    padding-top: .5rem;
+}
+
+
+
+.active-head {
+    font-weight: 700;
+}
+
+hr{
+    margin-top: 1rem;
+    color:  rgb(213, 213, 213);
+    border-radius: 50%;
+}
+
+
+
+.left-side {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    padding: 5rem 0;
+}
+
+.right-side {
+    flex: 1;
+    padding: 3rem 2rem;
+}
+
+.left-side .woman-online {
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    transform: translateY(-50%);
+}
+
+.box-image {
+    position: absolute;
+    left: -4px;
+    top: 45%;
+    transform: translateX(-50%);
+    overflow: visible;
+}
+
+
+.section {
+    position: relative;
+    margin-bottom: 1rem;
+    width: 80%;
+    
+
+}
+
+.section img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5px 5px 0 0 ;
+    padding: 3px;
+    transition: 0.3s;
+  
+
+}
+
+.section img:hover{
+    cursor: pointer;
+}
